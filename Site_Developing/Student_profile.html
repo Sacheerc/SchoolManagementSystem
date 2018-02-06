@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Teacher_profile</title>
+	<link rel="stylesheet" href="">
+
+	<!-- CSS code for layout properties -->
+	<style type="text/css">
+
+	body {
+	    background-color: #f0f0ff;
+	}
+	td {
+	    width:240px;
+	}
+		/* properties classes */
+	.test-border {
+	    border: 1px solid black;
+	    margin: 1px;
+	}
+
+	.page-frame {
+		width: 1200px;
+		margin: 25px auto;
+		height: auto;
+        padding: 10px;
+        background-color: #d0d0ff;
+        overflow: auto;
+	}
+	.header {
+		display: inline-flex;
+        margin:5px 20px 0px 5px;
+        height: 100px;
+        box-sizing: border-box;
+	}
+
+	.logo {
+		display: block;
+		margin:5px 20px;
+		border: 2px dashed gray;
+		width: 100px;
+	}
+
+	.title {
+		display: block;
+		margin: 5px 280px 5px 160px;
+		width: 600px;
+	}
+
+	.nav{
+	    margin:5px;
+	}
+	
+	.navbar {
+		display: inline-flex;
+		list-style-type: none;
+		margin: 5px 0px 5px 0px;
+		padding: 0;
+		overflow: hidden;
+	}
+	
+	.navblock {
+		display: block;
+		width: 166px;
+		height:35px;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size:18px;
+		background-color:#555;
+		color: white;
+	}
+	
+	/* Navigation bar mouse over properties */
+	.navblock:hover {
+	    background-color: #444;
+	    font-size:20px;
+	}
+
+	.button {
+    	background-color: #008CBA; /* Blue */
+    	border-radius: 15px;
+    	color: white;
+    	padding:10px 32px ;
+    	text-align: center;
+    	text-decoration: none;
+    	display:inline-block;
+    	font-size: 16px;
+	}
+
+	.button:hover {
+	    background-color: #444;
+	    font-size:16px;
+	}
+
+	.bottom-boxes{
+		border-radius: 10px;
+		border: 1px solid black;
+		padding: 20px 20px 20px 100px;
+	}
+	
+	.pic-frame{
+		display:block;
+		height: 120px;
+		width: 100px;
+		border: 2px dashed gray;
+
+</style>
+
+</head>
+
+<body>
+
+	<div class="page-frame test-border">
+    <!-- Head of the page -->
+        <header id="" class="header test-border">
+        	<div class="logo">
+				<img src="" alt="Logo">
+			</div>
+			<div class="title test-border">
+				Title
+			</div>
+        </header>
+
+    <div class="nav test-border">
+		<nav>
+			<ul class="navbar">
+				<li><a href="#" title="" class="navblock">Home</a></li>
+				<li><a href="#" title="" class="navblock">About Us</a></li>
+				<li><a href="#" title="" class="navblock">Academic</a></li>
+				<li><a href="#" title="" class="navblock">Extracurricular Activities</a></li>
+				<li><a href="#" title="" class="navblock">Gallery</a></li>
+				<li><a href="#" title="" class="navblock">Contact Us</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<div class="" style="float: left; margin-left: 5px;">
+		<!-- Second navigation bar ( verticle menu).............. -->
+		<div class="test-border" style="width:198px;float: left;height: 500px;">
+		    <nav>
+			    <ul class="navbar"  style="display: block; margin: 0px 0px 0px 0px">
+					<li><a href="#" title="" class="navblock">My Profile</a></li>
+					<li><a href="#" title="" class="navblock ">Results</a></li>
+					<li><a href="#" title="" class="navblock">Forum</a></li>
+			    </ul>
+		    </nav>
+		</div>
+		
+		<div class="" style="float:left;">
+		    <table>
+		        <tr>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		            <td></td>
+		        </tr>
+		        <tr style="height:100px;">
+		            <td></td>
+		            <td colspan="2">
+		                <h1 style="margin:0px;"><center>My Profile</center></h1>
+		            </td>
+		            <td rowspan="2" style="text-align: center;">
+		                <div class="pic-frame" style="display:inline-block;">
+    	                    pic-frame
+                        </div>
+                        <button class="button" style="margin-top:10px;">Change Profile<br>Picture</button>
+		            </td>
+		        </tr>
+		        <tr>
+		            <td colspan="2" rowspan="2">
+		                <div class="bottom-boxes" style="margin: 10px;">
+    	                    <form action="#/action_page.php">
+            	                Student ID  : 
+  		        	            <output name="student_id"> </output>
+  			                    <br><br>
+  			                    First name  : 
+              			        <output name="first_name"> </output>
+  	            		        <br><br>
+  		    	                Last name  :
+          			            <output name="last_name"> </output>
+  		        	            <br><br>
+  			                    Address   :
+      			                <output name="address"> </output>
+          	    		        <br><br>
+  		            	        Date of birth:
+  			                    <output name="date_of_birth"> </output>
+  			                    <br><br>
+  		    	                Fixed line:
+          		        	    <output name="fixed_line"> </output>
+  		            	        <br><br>
+  			                    Mobile  :
+      			                <output name="mobile"> </output>
+          	    		        <br><br>
+  		        	            Current Class  :
+  			                    <output name="mobile"> </output>
+		                    </form> 
+                        </div>
+		            </td>
+		            <td></td>
+		        </tr>
+		        <tr>
+		            <td colspan="2" valign="bottom">
+		                <div class="bottom-boxes" style="margin:10px;">
+    	                    <form action="#/action_page.php">
+  		                    	Parent/Guardian Name  : 
+  		                    	<output name="parentname"> </output>
+  			                    <br><br>
+  			                    NIC  :
+  			                    <output name="nic"> </output>
+  			                    <br><br>
+  		                    	Contact Number  :
+  		                    	<output name="contactnumber"> </output>
+  			                    <br><br>
+  			                    Email  :
+  			                    <output name="email"> </output>
+  			                    <br><br>
+  			               </form>
+                        </div>
+		            </td>
+		        </tr>
+		        <tr>
+		            <td colspan="4" align="center">
+		                <button class="button" style="margin-bottom:10px">Edit details</button>
+		            </td>
+		        </tr>
+		    </table>
+		</div>
+		
+		    
+		    
+		    
+		    
+		    
+	
+		
+		
+
+		
+        
+        
+
+		
+
+	</div>
+</div>
+</body>
+</html>
