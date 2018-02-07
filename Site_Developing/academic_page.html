@@ -8,7 +8,11 @@
 	
 	<!-- CSS code for layout properties -->
 	<style type="text/css">
-
+	
+	/* directly change elements' properties */ 
+	li {
+		float: left;
+	}
 	body {
 	    background-color: #f0f0ff;
 	}
@@ -16,24 +20,20 @@
 	/* properties classes */
 	.test-border {
 	    border: 1px solid black;
-	    margin: 1px;
-
 	}
 	
 	.page-frame {
 		width: 1200px;
-		height: auto;
-		margin: auto;
+		margin: 25px auto;
         padding: 10px;
         background-color: #d0d0ff;
-        overflow: auto;
 	}
 	
 	.header {
 		display: inline-flex;
-        margin:5px 20px 0px 5px;
+        margin:5px;
         height: 100px;
-        box-sizing:border-box;
+        float: left;
 	}
 
 	.logo {
@@ -45,8 +45,14 @@
 
 	.title {
 		display: block;
-		margin: 5px 280px 5px 160px;
+		margin: 5px 5px 5px 160px;
 		width: 600px;
+	}
+
+	.login {
+		display: block;
+		margin: 5px 5px;
+		width: 265px;
 	}
 	
 	.nav{
@@ -56,9 +62,9 @@
 	.navbar {
 		display: inline-flex;
 		list-style-type: none;
-		margin: 5px 0px 5px 0px;
+		margin: 0;
 		padding: 0;
-		
+		overflow: hidden;
 	}
 	
 	.navblock {
@@ -78,28 +84,30 @@
 	    background-color: #444;
 	    font-size:20px;
 	}
-	
-	.bottom-boxes {
-		padding: 20px 20px 20px 20px;
-		border: 1px solid black;
-		float: left;
-		margin: 1px;
-		
-	
-	}
-	.image-slider {
+
+    .image-slider {
 		height: 250px;
 		margin: 5px;
 	}
+	
+	.bottom-boxes {
+	    display: inline-block;
+	}
+	
+	.footer {
+		margin: 5px;
+		height: 100px;
+	}
 
-</style>
+    </style>
     
 </head>
 
 <body>
     
- <div class="page-frame test-border">
-    <!-- Head of the page -->
+    <div class="page-frame test-border">
+
+    	<!-- Head of the page -->
         <header id="" class="header test-border">
         	<div class="logo">
 				<img src="" alt="Logo">
@@ -107,9 +115,13 @@
 			<div class="title test-border">
 				Title
 			</div>
+			<div class="login test-border">
+				Login
+			</div>
         </header>
-
-    <div class="nav test-border">
+		
+		<!-- Navigation Bar -->
+		<div class="nav test-border">
 			<nav>
 				<ul class="navbar">
 					<li><a href="home_page.html" title="" class="navblock">Home</a></li>
@@ -120,57 +132,12 @@
 					<li><a href="contact_us_page.html" title="" class="navblock">Contact Us</a></li>
 				</ul>
 			</nav>
+		</div>
+		
+		<div class="test-border" style="margin: 5px; height: 500px;">
+			Academic
+		</div>
 	</div>
-		<div class="image-slider test-border">
-			Image Slider
-		</div>
-		<div class="test-border" style="float: left; margin-left: 5px">
-		<!-- Second navigation bar ( verticle menu).............. -->
-			<div class="test-border" style="width:198px;float: left">
-			<nav>
-				<ul class="navbar"  style="display: block; margin: 0px 0px 0px 0px">
-						<li><a href="teacher_profile.html" title="" class="navblock">My Profile</a></li>
-						<li><a href="results_page_teacher.html" title="" class="navblock ">Results</a></li>
-						<li><a href="#" title="" class="navblock">Forum</a></li>
-				</ul>
-			</nav>
-			</div>
-			<!-- content box.............. -->
-			<div class="bottom-boxes" style=" width: 743px">
-				Content<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-
-			</div>
-			<!-- Right side bar.............. -->
-			<div class="bottom-boxes" style=" width: 155px">
-				Right side bar<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-				lorem ipsum<br>
-
-			</div>
-		</div>
-</div>
 	
 </body>
 </html>
