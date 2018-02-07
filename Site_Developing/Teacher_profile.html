@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Teacher_profile</title>
+	<link rel="stylesheet" href="">
+
+	<!-- CSS code for layout properties -->
+	<style type="text/css">
+
+	body {
+	    background-color: #f0f0ff;
+	}
+		/* properties classes */
+	.test-border {
+	    border: 1px solid black;
+	    margin: 1px;
+	}
+
+	.page-frame {
+		width: 1200px;
+		margin: 25px auto;
+		height: auto;
+        padding: 10px;
+        background-color: #d0d0ff;
+        overflow: auto;
+	}
+	.header {
+		display: inline-flex;
+        margin:5px 20px 0px 5px;
+        height: 100px;
+        box-sizing: border-box;
+	}
+
+	.logo {
+		display: block;
+		margin:5px 20px;
+		border: 2px dashed gray;
+		width: 100px;
+	}
+
+	.title {
+		display: block;
+		margin: 5px 280px 5px 160px;
+		width: 600px;
+	}
+
+	.nav{
+	    margin:5px;
+	}
+	
+	.navbar {
+		display: inline-flex;
+		list-style-type: none;
+		margin: 5px 0px 5px 0px;
+		padding: 0;
+		overflow: hidden;
+	}
+	
+	.navblock {
+		display: block;
+		width: 166px;
+		height:35px;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size:18px;
+		background-color:#555;
+		color: white;
+	}
+	
+	/* Navigation bar mouse over properties */
+	.navblock:hover {
+	    background-color: #444;
+	    font-size:20px;
+	}
+
+	.button {
+    	background-color: #008CBA; /* Blue */
+    	border-radius: 15px;
+    	color: white;
+    	padding:10px 32px ;
+    	text-align: center;
+    	text-decoration: none;
+    	display:inline-block;
+    	font-size: 16px;
+	}
+
+	.button:hover {
+	    background-color: #444;
+	    font-size:16px;
+	}
+
+	.bottom-boxes{
+		border-radius: 10px;
+		border: 1px solid black;
+		padding: 20px 20px 20px 100px;
+	}
+
+</style>
+
+</head>
+<body>
+
+	<div class="page-frame test-border">
+    <!-- Head of the page -->
+        <header id="" class="header test-border">
+        	<div class="logo">
+				<img src="" alt="Logo">
+			</div>
+			<div class="title test-border">
+				Title
+			</div>
+        </header>
+
+    <div class="nav test-border">
+			<nav>
+				<ul class="navbar">
+					<li><a href="home_page.html" title="" class="navblock">Home</a></li>
+					<li><a href="about_us_page.html" title="" class="navblock">About Us</a></li>
+					<li><a href="academic_page.html" title="" class="navblock">Academic</a></li>
+					<li><a href="extracurricular_activities_page.html" title="" class="navblock">Extracurricular Activities</a></li>
+					<li><a href="gallery_page.html" title="" class="navblock">Gallery</a></li>
+					<li><a href="contact_us_page.html" title="" class="navblock">Contact Us</a></li>
+				</ul>
+			</nav>
+	</div>
+	<div class="test-border" style="float: left; margin-left: 5px">
+		<!-- Second navigation bar ( verticle menu).............. -->
+		<div class="test-border" style="width:198px;float: left;height: 500px">
+		<nav>
+			<ul class="navbar"  style="display: block; margin: 0px 0px 0px 0px">
+					<li><a href="teacher_profile.html" title="" class="navblock">My Profile</a></li>
+					<li><a href="results_page_teacher.html" title="" class="navblock ">Results</a></li>
+					<li><a href="#" title="" class="navblock">Forum</a></li>
+			</ul>
+		</nav>
+		</div>
+		<div class="" style="width: 1188px">
+			<h1><center>My Profile<br><br></center></h1>
+		</div>
+
+		<div class="bottom-boxes" style="width: 340px; margin-left: 475px;margin-top: 40px;">
+			<form action="#/action_page.php">
+				<br>
+				Teacher ID : 
+				<input type="text" name="teacher_id" value="">
+				<br><br>
+				Full Name :
+				<input type="text" name="name" value="">
+				<br><br>
+			</form>
+		</div>
+
+		<button class="button" style="margin:60px 0px 0px 420px ">Edit details</button>
+
+	</div>
+</div>
+
+
+</body>
+</html>
