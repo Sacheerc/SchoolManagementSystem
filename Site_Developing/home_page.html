@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
+	<script src="./JavaScript/main_slider.js" type="text/javascript"></script>
 	<link rel="stylesheet" href="">
 	
 	<!-- CSS code for layout properties -->
@@ -14,7 +15,7 @@
 		float: left;
 	}
 	body {
-	    background-color: #f0f0ff;
+	    background-color: #555;
 	}
 	
 	/* properties classes */
@@ -26,7 +27,7 @@
 		width: 1200px;
 		margin: 25px auto;
         padding: 10px;
-        background-color: #d0d0ff;
+        background-color: #D3D3D3;
 	}
 	
 	.header {
@@ -93,7 +94,23 @@
     .image-slider {
 		height: 250px;
 		margin: 5px;
+		background-color: white;
 	}
+
+	@keyframes example {
+    	0%   {opacity: 0;}
+    	10%  {opacity: 1;}
+    	90%  {opacity: 1;}
+    	100% {opacity: 0;}
+	}
+
+/* The element to apply the animation to */
+	#slider {
+	    animation-name: example;
+	    animation-duration: 8s;
+	    animation-iteration-count: infinite;
+	}
+
 	
 	.bottom-boxes {
 	    display: inline-block;
@@ -158,7 +175,7 @@
 		
 		<!-- Image Slider -->
 		<div class="image-slider test-border">
-			Image Slider
+			<img id="slider" src="./Assets/Images/Slider/slider_1.png">
 		</div>
 		
 		<!-- Bottom Boxes -->
