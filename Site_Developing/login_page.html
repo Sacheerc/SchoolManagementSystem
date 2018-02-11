@@ -27,7 +27,7 @@
 	
 	.header {
 		display: inline-flex;
-        margin:5px 20px;
+        margin:5px  20px ;
         height: 100px;
         box-sizing:border-box;
 	}
@@ -69,10 +69,33 @@
 	    background-color: #444;
 	    font-size:16px;
 	}
+	
+	.button {
+	    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+	}
+	
+	.section{
+	    
+		border-radius: 10px;
+		border: 1px solid black;
+		padding: 20px 20px 20px 100px;
+	}
+	
+	#formborder{
+	    width: 440px; 
+	    margin-left:325px; 
+	    margin-top: 40px;
+	}
+	
+
+	}
 
 </style>
     
-</head>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/057B984B-3605-624B-8386-486EBD8309FC/main.js" charset="UTF-8"></script></head>
 
 <body>
     
@@ -88,12 +111,25 @@
 				Title
 			</div>
         </header>
-    <div class="sign_up test-border">
-    	<h1><center><br><br><br>Sign Up<br><br></center></h1>
-    	<a href="sign_up_teacher.html"><button class="button button1" style="margin-left: 400px; margin-right: 75px">Teacher</button></a>
-		<a href="sign_up_student.html"><button class="button button2" style="margin-right: 400px">Student</button></a>
-    </div>
+    <div id="login" class="sign_up test-border">
+    	<h1><center><br><br> LOGIN<br><br><br></center></h1>
+    	
+    	
+    	<div class= "section " id="formborder">
+    	    
+    	    	<form action="#/action_page.php">
+    	<p id="word">Username: 	<input type="text" name="username" value=""></p>
+    	<p id="word">Password:	<input type="text" name="password" value=""></p>
+    	    </form>
+    	
+		
+  	</div>
+    	
+			<button class="button button2"  style="margin:120px 0px 0px 500px ">Login</button>
+    
+    	
+     </div>
 </div>
 	
 </body>
-</html>
+</html> 
