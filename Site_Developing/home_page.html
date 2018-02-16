@@ -28,19 +28,20 @@
 		margin: 25px auto;
         padding: 10px;
         background-color: #D3D3D3;
+        overflow: auto;
 	}
 	
 	.header {
 		display: inline-flex;
         margin:5px;
         height: 100px;
-        float: left;
+        width: 1188px;
+        background: white;
 	}
 
 	.logo {
 		display: block;
 		margin:5px 20px;
-		border: 2px dashed gray;
 		width: 100px;
 	}
 
@@ -99,7 +100,7 @@
 
 	@keyframes example {
     	0%   {opacity: 0;}
-    	10%  {opacity: 1;}
+    	20%  {opacity: 1;}
     	90%  {opacity: 1;}
     	100% {opacity: 0;}
 	}
@@ -114,11 +115,15 @@
 	
 	.bottom-boxes {
 	    display: inline-block;
+	    float: left;
+
 	}
 	
 	.footer {
 		margin: 5px;
 		height: 100px;
+		width: 1188px;
+		float: left;
 	}
 	.button {
     	background-color: #008CBA; /* Blue */
@@ -151,7 +156,7 @@
 				</a>
 			</div>
 			<div class="title test-border">
-				Title
+				<h1 style="font-size: 3vw"><center>School Management System</center></h1>
 			</div>
 			<div class="login test-border" style="padding-top: 25px">
     				<a href="sign_up_selection.html"  class="button button1" style="margin-left: 18px">Sign Up</a>
@@ -180,14 +185,14 @@
 		
 		<!-- Bottom Boxes -->
 		<div style="margin: 5px;">
-		    <div class="bottom-boxes test-border" style="width: 200px;height: 200px;">
+		    <div class="bottom-boxes test-border" style="width: 200px;min-height: 200px;">
 		        Bottom left
 		    </div>
-		    <div class="bottom-boxes test-border" style="width: 660px;height:200px;">
-		        Site Announcements
+		    <div class="bottom-boxes test-border" style="width: 660px;min-height:200px;margin-left: 4px;">
+		        Announcements<br></h1>
 		    </div>
-		    <div class="bottom-boxes test-border" style="width: 315px;height:200px;">
-		        Event Calendar
+		    <div class="bottom-boxes test-border" style="width: 315px;height:200px;margin-left: 4px;position: static;">
+		        <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showTz=0&amp;height=200&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;ctz=Asia%2FColombo" style="border-width:0" width="315" height="200" frameborder="0" scrolling="no"></iframe>
 		    </div>
 		</div>
 
