@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="CSS/Sign_up_teacher.css">
-	
-	<!-- CSS code for layout properties 
-	<style type="text/css">
-	
-	/* directly change elements' properties */
-	li {
+li {
 		float: left;
 	}
 	body {
@@ -129,66 +117,3 @@
 		padding: 10px;
 
 	}
-
-    </style> -->
-    
-</head>
-
-<body>
-    
-    <div class="page-frame test-border">
-
-    	<!-- Head of the page -->
-        <header id="" class="header test-border">
-        	<div class="logo">
-				<img src="" alt="Logo">
-			</div>
-			<div class="title test-border">
-				Title
-			</div>
-        </header>
-		
-		<!-- Navigation Bar -->
-		<div class="nav test-border">
-			<nav>
-				<ul class="navbar">
-					<li><a href="#" title="" class="navblock">Home</a></li>
-					<li><a href="#" title="" class="navblock">About Us</a></li>
-					<li><a href="#" title="" class="navblock">Academic</a></li>
-					<li><a href="#" title="" class="navblock">Extracurricular Activities</a></li>
-					<li><a href="#" title="" class="navblock">Gallery</a></li>
-					<li><a href="#" title="" class="navblock">Contact Us</a></li>
-				</ul>
-			</nav>
-		</div>
-		
-	<div id="personal" >
-	<h1>Personal Details</h1>
-	</div>
-
-	<div id="filldetails" class="bottom-boxes" >
-		<form action="#/action_page.php">
-			<br>
-			Teacher ID : 
-			<input type="text" name="teacher_id" value="">
-			<br><br>
-			Name :
-			<input type="text" name="name" value="">
-			<br><br>
-			Password :
-			<input type="password" name="pass_word" value="">
-			<br><br>
-			Confirm password :
-			<input type="password" name="confirmpassword" value="">
-			<br><br>
-
-		</form>
-	</div>
-
-
-		<button id="buttonsignup" class="button" >Sign Up</button>
-
-</div>
-
-</body>
-</html>

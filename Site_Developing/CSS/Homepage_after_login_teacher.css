@@ -1,0 +1,105 @@
+body {
+	    background-color: #f0f0ff;
+	}
+	
+	/* properties classes */
+	.test-border {
+	    border: 1px solid black;
+	    margin: 1px;
+
+	}
+	
+	.page-frame {
+		width: 1200px;
+		height: auto;
+		margin: auto;
+        padding: 10px;
+        background-color: #d0d0ff;
+        overflow: auto;
+	}
+	
+	.header {
+		display: inline-flex;
+        margin:5px 20px 0px 5px;
+        height: 100px;
+        box-sizing:border-box;
+	}
+
+	.logo {
+		display: block;
+		margin:5px 20px;
+		border: 2px dashed gray;
+		width: 100px;
+	}
+
+	.title {
+		display: block;
+		margin: 5px 280px 5px 160px;
+		width: 600px;
+	}
+	
+	.nav{
+	    margin:5px;
+	}
+	
+	.navbar {
+		display: inline-flex;
+		list-style-type: none;
+		margin: 5px 0px 5px 0px;
+		padding: 0;
+		
+	}
+	
+	.navblock {
+		display: block;
+		width: 166px;
+		height:35px;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size:18px;
+		background-color:#555;
+		color: white;
+	}
+	
+	/* Navigation bar mouse over properties */
+	.navblock:hover {
+	    background-color: #444;
+	    font-size:20px;
+	}
+	
+	.bottom-boxes {
+		padding: 20px 20px 20px 20px;
+		border: 1px solid black;
+		float: left;
+		margin: 1px;
+		
+	
+	}
+	.image-slider {
+		height: 250px;
+		margin: 5px;
+    }
+    
+    #nav1{
+		float: left; 
+		margin-left: 5px;
+	}
+
+	#nav2{
+		width:198px;
+		float: left;
+	}
+
+	#navigatebar{
+		display: block; 
+		margin: 0px 0px 0px 0px;
+	}
+
+	#Boxleft{
+		width: 743px;
+	}
+
+	#Boxright{
+		width: 155px;
+	}

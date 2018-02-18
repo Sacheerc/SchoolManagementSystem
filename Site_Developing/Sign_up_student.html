@@ -4,116 +4,9 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title></title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="CSS/Sign_up_student.css">
 	
-	<!-- CSS code for layout properties -->
-	<style type="text/css">
 
-	body {
-	    background-color: #f0f0ff;
-	}
-	
-	/* properties classes */
-	.test-border {
-	    border: 1px solid black;
-	}
-	
-	.page-frame {
-		width: 1200px;
-		height: auto;
-		margin: auto;
-        padding: 10px;
-        background-color: #d0d0ff;
-        overflow: auto;
-	}
-	
-	.header {
-		display: inline-flex;
-        margin:5px 20px 0px 5px;
-        height: 100px;
-        box-sizing:border-box;
-	}
-
-	.logo {
-		display: block;
-		margin:5px 20px;
-		border: 2px dashed gray;
-		width: 100px;
-	}
-
-	.title {
-		display: block;
-		margin: 5px 280px 5px 160px;
-		width: 600px;
-	}
-	.sign_up{
-		display: block;
-		margin: 20px 20px 0px 5px;
-		width: 1190px;
-		height: 1000px;
-	}
-	.button {
-    	background-color: #008CBA; /* Blue */
-    	border-radius: 12px;
-    	color: white;
-    	padding: 5px 20px;
-    	text-align: center;
-    	text-decoration: none;
-    	display:inline-block;
-    	font-size: 16px;
-	}
-	.button:hover {
-	    background-color: #444;
-	    font-size:16px;
-	}
-	.nav{
-	    margin:5px;
-	}
-	
-	.navbar {
-		display: inline-flex;
-		list-style-type: none;
-		margin: 5px 0px 5px 0px;
-		padding: 0;
-		overflow: hidden;
-	}
-	
-	.navblock {
-		display: block;
-		width: 166px;
-		height:35px;
-		text-align: center;
-		padding: 14px 16px;
-		text-decoration: none;
-		font-size:18px;
-		background-color:#555;
-		color: white;
-	}
-	
-	/* Navigation bar mouse over properties */
-	.navblock:hover {
-	    background-color: #444;
-	    font-size:20px;
-	}
-	.pic-frame{
-		display:block;
-		height: 120px;
-		width: 100px;
-		border: 2px dashed gray;
-		margin: 10px 50px;
-	}
-	.bottom-boxes {
-		margin-left: 5px;
-		padding: 20px 20px 20px 20px;
-		border: 1px solid black;
-		border-radius: 10px;
-		float: left;
-		
-	
-	}
-
-</style>
-    
 </head>
 
 <body>
@@ -141,16 +34,16 @@
 				</ul>
 			</nav>
 		</div>
-	<div style=" float:left; margin-left: 500px; margin-right: 50px">
+	<div id="personal">
 	<h1>Personal Details</h1>
 	</div>
-	<div class="pic-frame" style="float: left;">
+	<div id="picframe" class="pic-frame">
     	pic-frame
     </div>
     <button>
-    		<button class="button button1" style="margin-top: 85px; margin-left: -60px">Add Profile<br>Picture</button>
+    		<button id="buttonaddprof"class="button button1" >Add Profile<br>Picture</button>
     	</button>
-    <div class="bottom-boxes" style="width: 400px; margin-left: 100px;margin-top: -20px; ">
+    <div id="fillform" class="bottom-boxes" >
     	<form action="#/action_page.php">
   			First name  : 
   			<input type="text" name="first_name" value="">
@@ -176,7 +69,7 @@
   			
 		</form> 
     </div>
-    <div class="bottom-boxes" style="width: 370px; margin-left:100px; margin-top: 10px;float: left">
+    <div id="parentform" class="bottom-boxes" >
     	<form action="#/action_page.php">
   			Parent/Guardian full name  : 
   			<input type="text" name="parentname" value="">
@@ -190,7 +83,7 @@
   			Email  :
   			<input type="email" name="email" value="">
     </div>
-    <div style="margin-left: 640px;margin-top: 220px">
+    <div id="confirm" >
     	<form action="#/action_page.php">
   			Password  : 
   			<input type="password" name="pastword" value="">
@@ -200,7 +93,7 @@
   		</form>	
     </div>
     <button>
-    		<button class="button button2" style="margin-top: 85px; margin-left: 0px;padding: 10px">Sign Up</button>
+    		<button id="signup" class="button button2" >Sign Up</button>
     	</button>
     
 </div>

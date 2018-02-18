@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Student Profile</title>
-	<link rel="stylesheet" href="">
+	<link rel="stylesheet" href="CSS/Student_profile.css">
 
 	<!-- CSS code for layout properties -->
 	<style type="text/css">
@@ -106,6 +106,29 @@
 		height: 120px;
 		width: 100px;
 		border: 2px dashed gray;
+	}
+
+	#nav1 {
+		float: left; 
+		margin-left: 5px;
+	}
+
+	#nav2 {
+		width:198px;
+		float: left;
+		height: 500px;
+	}
+
+	#nav3{
+		display: block; 
+		margin: 0px 0px 0px 0px;
+
+	}
+
+
+	#tableleft{
+		float:left;
+	}
 
 </style>
 
@@ -137,11 +160,11 @@
 		</nav>
 	</div>
 	
-	<div class="" style="float: left; margin-left: 5px;">
+	<div  id="nav1" class="" >
 		<!-- Second navigation bar ( verticle menu).............. -->
-		<div class="test-border" style="width:198px;float: left;height: 500px;">
+		<div id ="nav2" class="test-border" >
 		    <nav>
-			    <ul class="navbar"  style="display: block; margin: 0px 0px 0px 0px">
+			    <ul id="nav3"class="navbar"  >
 					<li><a href="student_profile.html" title="" class="navblock">My Profile</a></li>
 					<li><a href="results_page_student.html" title="" class="navblock ">Results</a></li>
 					<li><a href="#" title="" class="navblock">Forum</a></li>
@@ -149,7 +172,7 @@
 		    </nav>
 		</div>
 		
-		<div class="" style="float:left;">
+		<div id="tableleft" class="" >
 		    <table>
 		        <tr>
 		            <td></td>
