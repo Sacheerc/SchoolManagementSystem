@@ -1,0 +1,77 @@
+
+	body {
+	    background-color: #f0f0ff;
+	}
+	
+	/* properties classes */
+	.test-border {
+	    border: 1px solid black;
+	}
+	
+	.page-frame {
+		width: 1500px;
+		margin: 25px auto;
+        padding: 10px;
+        background-color: #d0d0ff;
+	}
+	
+	.header {
+		display: inline-flex;
+        margin:5px  20px ;
+        height: 100px;
+        box-sizing:border-box;
+	}
+
+	.logo {
+	   	display: block;
+		margin:5px 20px;
+		border: 2px dashed gray;
+		width: 100px;
+	}
+
+	.title {
+		display: block;
+		margin: 5px 250px 5px 160px;
+		width: 600px;
+	}
+	.sign_up{
+		display: block;
+		margin: 20px 20px;
+		width: 1155px;
+		height: 1000px;
+	}
+	.button {
+    	background-color: #008CBA; /* Blue */
+    	border-radius: 15px;
+    	color: white;
+    	padding: 10px 32px;
+    	text-align: center;
+    	text-decoration: none;
+    	display: inline-block;
+    	font-size: 16px;
+	}
+	.button:hover {
+	    background-color: #444;
+	    font-size:16px;
+	}
+	
+	.button {
+	    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+	}
+	
+	.section{
+	    
+		border-radius: 10px;
+		border: 1px solid black;
+		padding: 20px 20px 20px 100px;
+	}
+	
+	#formborder{
+	    width: 440px; 
+	    margin-left:325px; 
+	    margin-top: 40px;
+	}
+	
