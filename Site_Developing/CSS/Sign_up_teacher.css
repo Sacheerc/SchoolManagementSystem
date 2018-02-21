@@ -1,0 +1,119 @@
+li {
+		float: left;
+	}
+	body {
+	    background-color: #f0f0ff;
+	}
+
+	/* properties classes */
+	.test-border {
+	    border: 1px solid black;
+	}
+	
+	.page-frame {
+		width: 1200px;
+		margin: 25px auto;
+		height: auto;
+        padding: 10px;
+        background-color: #d0d0ff;
+        overflow: auto;
+	}
+
+	.header {
+		display: inline-flex;
+        margin:5px 20px 0px 5px;
+        height: 100px;
+        box-sizing: border-box;
+	}
+
+	.logo {
+		display: block;
+		margin:5px 20px;
+		border: 2px dashed gray;
+		width: 100px;
+	}
+
+	.title {
+		display: block;
+		margin: 5px 280px 5px 160px;
+		width: 600px;
+	}
+	
+	.nav{
+	    margin:5px;
+	}
+	
+	.navbar {
+		display: inline-flex;
+		list-style-type: none;
+		margin: 5px 0px 5px 0px;
+		padding: 0;
+		overflow: hidden;
+	}
+	
+	.navblock {
+		display: block;
+		width: 166px;
+		height:35px;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+		font-size:18px;
+		background-color:#555;
+		color: white;
+	}
+	
+	/* Navigation bar mouse over properties */
+	.navblock:hover {
+	    background-color: #444;
+	    font-size:20px;
+	}
+	.sign_up{
+		display: block;
+		margin: 20px 20px 0px 5px;
+		width: 1190px;
+		height: 1000px;
+	}
+	.button {
+    	background-color: #008CBA; /* Blue */
+    	border-radius: 15px;
+    	color: white;
+    	padding:10px 32px ;
+    	text-align: center;
+    	text-decoration: none;
+    	display:inline-block;
+    	font-size: 16px;
+	}
+
+	.button:hover {
+	    background-color: #444;
+	    font-size:16px;
+	}
+
+	.bottom-boxes {
+		margin-left: 5px;
+		padding: 50px 50px 50px 300px;
+		border: 1px solid black;
+		border-radius: 10px;
+		float: left;	
+	}
+
+	#personal{
+		float: left;
+		margin-left: 500px; 
+		margin-right: 50px;
+
+	}
+
+	#filldetails{
+		width: 450px;
+		margin-left: 175px;
+		margin-top: 40px;
+
+	}
+
+	#buttonsignup{
+		margin: 450px 200px 0px -200px;
+		padding: 10px;
+
+	}
